@@ -2,7 +2,7 @@
   "name": "TylerBot",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://tyler-losinski.github.io/FB-Birthday-Thanks/docs/",
+  "homepage": "https://tyler-losinski.github.io/Tyler-Bot/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
