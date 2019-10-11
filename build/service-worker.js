@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Tyler-Bot/precache-manifest.e84ebe9c55002f53b0c6c0b8503d0b3b.js"
+  "/Tyler-Bot/build/precache-manifest.c4301071ed00f58a7a457cfe51d0c5b8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Tyler-Bot/index.html", {
+workbox.routing.registerNavigationRoute("/Tyler-Bot/build/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
