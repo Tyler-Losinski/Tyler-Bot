@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Tyler-Bot/build/precache-manifest.c4301071ed00f58a7a457cfe51d0c5b8.js"
+  "/Tyler-Bot/build/precache-manifest.ea65c1081306b7e3c012cf1976f51a6b.js"
 );
 
 workbox.clientsClaim();

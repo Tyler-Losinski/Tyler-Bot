@@ -33,7 +33,7 @@ class App extends Component {
 
     $.ajax({
       type: 'POST',
-      url: `http://140.186.90.91:5000/prediction`, // asp connection
+      url: `https://140.186.90.91:5000/prediction`, // asp connection
       data: JSON.stringify({message: this.state.textBox}),
       contentType: "application/json; charset=utf-8", //asp requirement
       dataType: "json" //asp requirement
